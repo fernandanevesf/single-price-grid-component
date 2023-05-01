@@ -14,8 +14,13 @@ body{
 .container{
     margin: auto;
     width: 100%;  
-    padding: 80px 30px; 
-    box-shadow: 10px 10px 5px lightblue;
+    padding: 80px 30px;    
+}
+
+.container-2{
+    box-shadow: 5px 5px 10px 10px rgb(216, 230, 235);
+    border-radius: 5px;
+    background-color: #4ABEBD;
 }
 
 .join{
@@ -82,12 +87,13 @@ h3{
 .why-us > p{
     font-size: 12px;
     font-weight: 200;
+    color: rgb(203, 245, 235);;
 }
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 800px){
 
     .container{
         margin: auto;
@@ -114,6 +120,7 @@ h3{
 
     .why-us{
         width:50%;
+        height: inherit;
         float:left;
         border-radius: 0 0 5px 0;
         line-height: 1.8;
